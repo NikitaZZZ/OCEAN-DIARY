@@ -11,12 +11,12 @@
 </head>
 <body>
     <div id="app">
-        <h1 class="text-center mt-3">Океан - Дневник</h1>
+        <h1 class="text-center bg-dark text-white" style="padding-bottom: 1rem;">Океан - Дневник</h1>
 
         <form>
             <div class="container">
                 <div class="mb-3">
-                    <label for="ta-day" class="form-label fw-bold">День {{ currentDay }}</label>
+                    <label for="ta-day" class="form-label fw-bold bg-dark text-white p-2">День {{ currentDay }}</label>
                     <textarea class="form-control mb-3" id="ta-day" v-model="formNewDay.descDay"></textarea>
 
                     <div class="button-group mb-3">
